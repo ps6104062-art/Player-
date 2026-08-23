@@ -335,12 +335,14 @@ async def get_rating(
         state: FSMContext
 ):
 
-    try:
+        try:
         rating = float(msg.text.replace(",", "."))
+        if rating < 0 or rating > 5:
+            raise ValueError
 
-    except: 
+    except ValueError:
         await msg.answer(
-            "Введите число"
+            "❌ Введите число от 0 до 5"
         )
         return
 
