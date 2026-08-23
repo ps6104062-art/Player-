@@ -282,17 +282,15 @@ async def setup(
     await msg.answer(
         "Отправь ссылку Playerok"
     )
-    @dp.message(SetupStates.waiting_url)
-    async def get_url(msg: Message, state: FSMContext):
+@dp.message(SetupStates.waiting_url)
+async def get_url(msg: Message, state: FSMContext):
     url = msg.text.strip()
 
     if not url.startswith("http"):
         await msg.answer("❌ Нужна ссылка https://")
         return
 
-    await state.update_data(
-        url=url
-    )
+    await state.update_data(url=url)
 
     await state.set_state(
         SetupStates.waiting_cooldown
