@@ -14,9 +14,9 @@ from aiogram.types import Message
 from bs4 import BeautifulSoup
 from playwright.async_api import async_playwright, Browser
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-PLAYEROK_TOKEN = os.getenv("PLAYEROK_TOKEN")
-PLAYEROK_DDG3 = os.getenv("PLAYEROK_DDG3")
+BOT_TOKEN = os.getenv("8657083122:AAFfn-iGiiVKMYsBVkrWHBqZk0hNchHNmrY")
+PLAYEROK_TOKEN = os.getenv("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxZjE5ZjJlNS0wNTY2LTZmYjAtZDhlOS01MWFhODFlNGJkOTkiLCJpZGVudGl0eSI6IjFmMTlmMmU1LTA1ODQtNjQ3MC02Mjk1LWVmOWNiZjc4MTg1ZCIsInJvbGUiOiJVU0VSIiwidiI6MSwicmV2IjoxLCJpYXQiOjE3ODc1MTU4NTksImV4cCI6MTgxOTA1MTg1OX0.wY5PnQq5V_TFhxRKaYqSyA5oUa8t9B8M8FqIEPtbQlU")
+PLAYEROK_DDG3 = os.getenv("89.149.226.17")
 
 logging.basicConfig(
     level=logging.INFO,
