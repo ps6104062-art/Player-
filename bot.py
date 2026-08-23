@@ -26,7 +26,7 @@ from aiogram.types import Message, ReplyKeyboardMarkup, KeyboardButton, ReplyKey
 from bs4 import BeautifulSoup
 
 # ─── НАСТРОЙКИ ───────────────────────────────────────────────────────────────
-BOT_TOKEN = "ВСТАВЬ_ТОКЕН_СЮДА"  # Токен от @BotFather
+BOT_TOKEN = "8657083122:AAFfn-iGiiVKMYsBVkrWHBqZk0hNchHNmrY"  # Токен от @BotFather
 YOUR_CHAT_ID = None               # Заполнится автоматически при первом /start
 
 # ─── ЛОГИРОВАНИЕ ─────────────────────────────────────────────────────────────
