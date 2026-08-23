@@ -283,7 +283,7 @@ async def setup(
         "Отправь ссылку Playerok"
     )
     @dp.message(SetupStates.waiting_url)
-async def get_url(
+    async def get_url(
         msg: Message,
         state: FSMContext
 ):
