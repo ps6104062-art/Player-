@@ -338,7 +338,7 @@ async def get_rating(
     try:
         rating = float(msg.text.replace(",", "."))
 
-    except: по
+    except: 
         await msg.answer(
             "Введите число"
         )
