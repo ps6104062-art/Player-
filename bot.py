@@ -283,7 +283,7 @@ async def setup(
         "Отправь ссылку Playerok"
     )
     @dp.message(SetupStates.waiting_url)
-async def get_url(msg: Message, state: FSMContext):
+    async def get_url(msg: Message, state: FSMContext):
     url = msg.text.strip()
 
     if not url.startswith("http"):
@@ -301,10 +301,6 @@ async def get_url(msg: Message, state: FSMContext):
     await msg.answer(
         "⏱ Через сколько минут проверять?"
     )
-
-
-
-ъ
 @dp.message(SetupStates.waiting_cooldown)
 async def get_cooldown(
         msg: Message,
