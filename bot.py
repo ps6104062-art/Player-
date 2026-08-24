@@ -23,7 +23,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram.types import Message
 
 # ─── НАСТРОЙКИ ───────────────────────────────────────────────────────────────
-BOT_TOKEN = "ВСТАВЬ_ТОКЕН_СЮДА"
+BOT_TOKEN = "8657083122:AAFfn-iGiiVKMYsBVkrWHBqZk0hNchHNmrY"
 
 TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxZjE5ZjJlNS0wNTY2LTZmYjAtZDhlOS01MWFhODFlNGJkOTkiLCJpZGVudGl0eSI6IjFmMTlmMmU1LTA1ODQtNjQ3MC02Mjk1LWVmOWNiZjc4MTg1ZCIsInJvbGUiOiJVU0VSIiwidiI6MSwicmV2IjoxLCJpYXQiOjE3ODc1MTU4NTksImV4cCI6MTgxOTA1MTg1OX0.wY5PnQq5V_TFhxRKaYqSyA5oUa8t9B8M8FqIEPtbQlU"
 DDG9 = "185.126.67.212"
