@@ -1,2 +1,2 @@
 aiogram>=3.10.0
-playerok-requests-api
+curl-cffi>=0.7.0
