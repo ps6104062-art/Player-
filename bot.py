@@ -23,7 +23,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram.types import Message
 
 # ─── НАСТРОЙКИ ───────────────────────────────────────────────────────────────
-BOT_TOKEN = "ВСТАВЬ_ТОКЕН_СЮДА"
+BOT_TOKEN = "8657083122:AAFfn-iGiiVKMYsBVkrWHBqZk0hNchHNmrY"
 
 PLAYEROK_COOKIES = (
     "__ddg9_=185.126.67.212; "
